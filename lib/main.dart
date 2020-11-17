@@ -1,22 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lost_flutter/feature/app/presentation/pages/app_page.dart';
 
-void main() => runApp(BantuTemuApp());
+void main() => runApp(AppPage());
 
-class BantuTemuApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Material App',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('BantuTemu'),
-        ),
-        body: Center(
-          child: Container(
-            child: Text('Hello World'),
-          ),
-        ),
-      ),
-    );
-  }
-}
